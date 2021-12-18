@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+header {
+  display: flex;
+  background-color: #000;
+  justify-content: center;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.headContent {
+  display: flex;
+  padding: 0 30px;
+  width: 90%;
+}
+.logo {
+  padding: 3px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+.signIn {
+  display: flex;
+  padding: 3px 10px;
+  width: 12%;
+  align-items: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+  color: white;
+}
+.signIn:hover {
+  border-bottom: 3px solid white;
+}
+.signIn p {
+  margin-left: 5px;
+}
+ul {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  list-style-type: none;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+li {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+ul li a {
+  color: white;
+}
+li:last-child {
+  border-bottom: 3px solid white;
+  text-align: left;
+}
+li:last-child a {
+  margin-right: 20px;
+}
+li:hover {
+  border-bottom: 3px solid white;
+}
+.search {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.search-content {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 2px;
+}
+#bbc-search {
+  padding: 3px;
+  font-weight: bold;
+  border: none;
+  margin-right: 5px;
+}
+input::placeholder {
+  color: black;
+}
+.fa-search {
+  color: black;
+}
